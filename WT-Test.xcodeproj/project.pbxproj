@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A0DB6BD1FFE667B00EA744B /* webtrekk_config.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5A0DB6BC1FFE667B00EA744B /* webtrekk_config.xml */; };
 		5ADEEEAC1FE8F9F6004C4F1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADEEEAB1FE8F9F6004C4F1A /* AppDelegate.swift */; };
 		5ADEEEAE1FE8F9F6004C4F1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADEEEAD1FE8F9F6004C4F1A /* ViewController.swift */; };
 		5ADEEEB11FE8F9F6004C4F1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ADEEEAF1FE8F9F6004C4F1A /* Main.storyboard */; };
 		5ADEEEB31FE8F9F6004C4F1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ADEEEB21FE8F9F6004C4F1A /* Assets.xcassets */; };
 		5ADEEEB61FE8F9F6004C4F1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ADEEEB41FE8F9F6004C4F1A /* LaunchScreen.storyboard */; };
+		BF4D633B2EBEE9A8AA0C88DC /* Pods_WT_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C14C733086CF03F7A6AFF2 /* Pods_WT_Test.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0023D8B58E6B198A03D823C4 /* Pods-WT-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WT-Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WT-Test/Pods-WT-Test.debug.xcconfig"; sourceTree = "<group>"; };
+		5A0DB6BC1FFE667B00EA744B /* webtrekk_config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = webtrekk_config.xml; sourceTree = "<group>"; };
 		5ADEEEA81FE8F9F6004C4F1A /* WT-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WT-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ADEEEAB1FE8F9F6004C4F1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5ADEEEAD1FE8F9F6004C4F1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		5ADEEEB21FE8F9F6004C4F1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5ADEEEB51FE8F9F6004C4F1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5ADEEEB71FE8F9F6004C4F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6C14C733086CF03F7A6AFF2 /* Pods_WT_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WT_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF47612B6CE0601D9DC4F0BA /* Pods-WT-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WT-Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-WT-Test/Pods-WT-Test.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF4D633B2EBEE9A8AA0C88DC /* Pods_WT_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		143A7737BC68DFC77D27310E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0023D8B58E6B198A03D823C4 /* Pods-WT-Test.debug.xcconfig */,
+				CF47612B6CE0601D9DC4F0BA /* Pods-WT-Test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4E77FF81E57DB6AB75D377DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6C14C733086CF03F7A6AFF2 /* Pods_WT_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5ADEEE9F1FE8F9F6004C4F1A = {
 			isa = PBXGroup;
 			children = (
 				5ADEEEAA1FE8F9F6004C4F1A /* WT-Test */,
 				5ADEEEA91FE8F9F6004C4F1A /* Products */,
+				143A7737BC68DFC77D27310E /* Pods */,
+				4E77FF81E57DB6AB75D377DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +85,7 @@
 				5ADEEEAF1FE8F9F6004C4F1A /* Main.storyboard */,
 				5ADEEEB21FE8F9F6004C4F1A /* Assets.xcassets */,
 				5ADEEEB41FE8F9F6004C4F1A /* LaunchScreen.storyboard */,
+				5A0DB6BC1FFE667B00EA744B /* webtrekk_config.xml */,
 				5ADEEEB71FE8F9F6004C4F1A /* Info.plist */,
 			);
 			path = "WT-Test";
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5ADEEEBA1FE8F9F6004C4F1A /* Build configuration list for PBXNativeTarget "WT-Test" */;
 			buildPhases = (
+				5747803273E08D9AA55D6149 /* [CP] Check Pods Manifest.lock */,
 				5ADEEEA41FE8F9F6004C4F1A /* Sources */,
 				5ADEEEA51FE8F9F6004C4F1A /* Frameworks */,
 				5ADEEEA61FE8F9F6004C4F1A /* Resources */,
+				B57818F0420D3F29EBBB5E8E /* [CP] Embed Pods Frameworks */,
+				54AE55C02E18C57848E69A15 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,11 +155,68 @@
 			files = (
 				5ADEEEB61FE8F9F6004C4F1A /* LaunchScreen.storyboard in Resources */,
 				5ADEEEB31FE8F9F6004C4F1A /* Assets.xcassets in Resources */,
+				5A0DB6BD1FFE667B00EA744B /* webtrekk_config.xml in Resources */,
 				5ADEEEB11FE8F9F6004C4F1A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54AE55C02E18C57848E69A15 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WT-Test/Pods-WT-Test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5747803273E08D9AA55D6149 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WT-Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B57818F0420D3F29EBBB5E8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WT-Test/Pods-WT-Test-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/ReachabilitySwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Webtrekk/Webtrekk.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReachabilitySwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Webtrekk.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WT-Test/Pods-WT-Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5ADEEEA41FE8F9F6004C4F1A /* Sources */ = {
@@ -272,6 +359,7 @@
 		};
 		5ADEEEBB1FE8F9F6004C4F1A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0023D8B58E6B198A03D823C4 /* Pods-WT-Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +375,7 @@
 		};
 		5ADEEEBC1FE8F9F6004C4F1A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF47612B6CE0601D9DC4F0BA /* Pods-WT-Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

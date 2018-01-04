@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Webtrekk
 
 class ViewController: UIViewController {
 
@@ -20,6 +21,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func testBtn(_ sender: Any) {
+        WebtrekkTracking.instance().trackPageView("pageName")
+    }
+    
 }
 

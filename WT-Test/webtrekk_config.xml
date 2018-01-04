@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webtrekkConfiguration>
+  <version>32</version>
+  <trackId>123451234512345</trackId>
+  <trackDomain>https://q3.webtrekk.net</trackDomain>
+  <sampling>0</sampling>
+  <sendDelay>1</sendDelay>
+  <maxRequests>4000</maxRequests>
+  <resendOnStartEventTime>30</resendOnStartEventTime>
+  <autoTracked>true</autoTracked>
+  <autoTrackAppUpdate>true</autoTrackAppUpdate>
+  <autoTrackAdvertiserId>true</autoTrackAdvertiserId>
+  <autoTrackAppVersionName>true</autoTrackAppVersionName>
+  <autoTrackAppVersionCode>true</autoTrackAppVersionCode>
+  <autoTrackRequestUrlStoreSize>true</autoTrackRequestUrlStoreSize>
+  <autoTrackAppPreInstalled>true</autoTrackAppPreInstalled>
+  <autoTrackApiLevel>true</autoTrackApiLevel>
+  <autoTrackScreenOrientation>true</autoTrackScreenOrientation>
+  <autoTrackConnectionType>true</autoTrackConnectionType>
+  <autoTrackAdvertisementOptOut>true</autoTrackAdvertisementOptOut>
+  <autoTrackPlaystoreUsername>false</autoTrackPlaystoreUsername>
+  <autoTrackPlaystoreMail>false</autoTrackPlaystoreMail>
+  <enableRemoteConfiguration>false</enableRemoteConfiguration>
+  <trackingConfigurationUrl>https://d1r27qvpjiaqj3.cloudfront.net/1111111111111111/36818.xml</trackingConfigurationUrl>
+  <globalTrackingParameter>
+    <parameter id="INTERN_SEARCH" key="AT1"/>
+    <pageParameter>
+      <parameter id="1" key="TP1"/>
+      <parameter id="2">ConstParam1</parameter>
+    </pageParameter>
+    <pageCategories>
+      <parameter id="1" key="PageCatKey"/>
+    </pageCategories>
+  </globalTrackingParameter>
+  <screen>
+    <classname type="text">com.webtrekk.webtrekksdk.training.MainActivity</classname>
+    <mappingname type="text">MainName</mappingname>
+    <autoTracked>false</autoTracked>
+  </screen>
+  <screen>
+    <classname type="text">com.webtrekk.webtrekksdk.training.ComplexActivity</classname>
+    <mappingname type="text">CustomPage1</mappingname>
+    <autoTracked>false</autoTracked>
+  </screen>
+  <screen>
+    <classname type="text">com.webtrekk.webtrekksdk.training.SimpleActivity</classname>
+    <mappingname type="text">SimpleName</mappingname>
+    <autoTracked>true</autoTracked>
+    <screenTrackingParameter>
+      <pageParameter>
+        <parameter id="5" key="TP1"/>
+        <parameter id="1" key="TP2"/>
+        <parameter id="1" key="AT2"/>
+      </pageParameter>
+      <productParameter>
+        <parameter id="1" key="TP1"/>
+      </productParameter>
+    </screenTrackingParameter>
+  </screen>
+  <errorLogEnable>false</errorLogEnable>
+  <errorLogLevel>3</errorLogLevel>
+  <autoTrackAdClearId>false</autoTrackAdClearId>
+  <screen>
+    <classname type="text">jjgjhg</classname>
+    <mappingname type="text">kjghkugkg</mappingname>
+    <autoTracked>true</autoTracked>
+    <screenTrackingParameter>
+      <ecomParameter>
+        <parameter id="1" key="AT2"/>
+      </ecomParameter>
+    </screenTrackingParameter>
+  </screen>
+</webtrekkConfiguration>
