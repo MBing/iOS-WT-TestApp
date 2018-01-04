@@ -1,6 +1,6 @@
 PODS:
   - ReachabilitySwift (3)
-  - Webtrekk (4.9.0):
+  - Webtrekk (4.10.0):
     - ReachabilitySwift (~> 3.0.0)
 
 DEPENDENCIES:
@@ -8,7 +8,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
-  Webtrekk: 1767fd71e248903cfc049eef0c46f7505280927e
+  Webtrekk: 50a9d8b54a39afe8cdc4ef95ba575d22ff662ec3
 
 PODFILE CHECKSUM: 197c15ad38ea24438eb3752d1e4221dcb08d9f3d
 
